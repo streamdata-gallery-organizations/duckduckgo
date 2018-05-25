@@ -1,17 +1,14 @@
 ---
 name: DuckDuckGo
 x-slug: duckduckgo
-description: DuckDuckGo is an Internet search engine that uses information from crowdsourced
-  websites such as Wikipedia to obtain its results. The search engine policy says
-  that it protects privacy, and does not record user information. Because users are
-  not profiled, the filter bubble can be avoided, with all users being shown the same
-  search results for a given search term.
-image: ""
+description: The Internet privacy company that empowers you to seamlessly take control
+  of your personal information online, without any tradeoffs.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "286"
 tags: DuckDuckGo
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,7 +16,7 @@ apis:
   x-api-slug: duckduckgo
   description: Our Zero-click Info API gives you free access to much of our topic
     summaries, categories, disambiguation, !bang redirects, definitions and more.
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
   humanURL: http://duckduckgo.com
   baseURL: https://////
   tags: Search
@@ -30,12 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/get-openapi.md
 - name: DuckDuckGo
   x-api-slug: duckduckgo
-  description: DuckDuckGo is an Internet search engine that uses information from
-    crowdsourced websites such as Wikipedia to obtain its results. The search engine
-    policy says that it protects privacy, and does not record user information. Because
-    users are not profiled, the filter bubble can be avoided, with all users being
-    shown the same search results for a given search term.
-  image: ""
+  description: The Internet privacy company that empowers you to seamlessly take control
+    of your personal information online, without any tradeoffs.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
   humanURL: http://duckduckgo.com
   baseURL: https:////
   tags: DuckDuckGo
@@ -45,6 +39,8 @@ apis:
 x-common:
 - type: x-base
   url: http://api.duckduckgo.com/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/duck-duck-go
 - type: x-developer
   url: https://duckduckgo.com/api
 - type: x-github
