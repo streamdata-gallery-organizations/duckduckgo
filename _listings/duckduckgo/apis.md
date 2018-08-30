@@ -7,36 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckdu
 x-kinRank: "9"
 x-alexaRank: "286"
 tags: DuckDuckGo
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: DuckDuckGo Search
-  x-api-slug: duckduckgo
+- name: No Title - Search
+  x-api-slug: get
   description: Our Zero-click Info API gives you free access to much of our topic
     summaries, categories, disambiguation, !bang redirects, definitions and more.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
   humanURL: http://duckduckgo.com
-  baseURL: https://////
-  tags: Search
+  baseURL: https:////
+  tags: Search, Search engine, Search, Stack Network, Technology, internet, SaaS,
+    Mobile, API Provider, Profiles, General Data, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/get-openapi.md
-- name: DuckDuckGo
-  x-api-slug: duckduckgo
-  description: The Internet privacy company that empowers you to seamlessly take control
-    of your personal information online, without any tradeoffs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
-  humanURL: http://duckduckgo.com
-  baseURL: https:////
-  tags: DuckDuckGo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/duckduckgo/master/_listings/duckduckgo/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://dropbox.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://duckduckgo.stack.network
 - type: x-base
   url: http://api.duckduckgo.com/
 - type: x-crunchbase
